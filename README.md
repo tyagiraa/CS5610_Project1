@@ -1,6 +1,12 @@
 # CS5610 Project 1
 
-My personal portfolio website, built for CS5610. Check it out at [rajivphilip18.github.io/CS5610_Project1](https://rajivphilip18.github.io/CS5610_Project1)
+**Author:** Rajiv Philip  
+**Class:** [CS5610 - Web Development](https://www.northeastern.edu/)  
+**Live Demo:** [rajivphilip18.github.io/CS5610_Project1](https://rajivphilip18.github.io/CS5610_Project1)
+
+## Project Objective
+
+Build a personal portfolio website that showcases my skills, projects, and experience as a software engineer. The site demonstrates proficiency in responsive design, modern web development practices, and clean UI/UX principles. This project covers HTML5 semantics, CSS3 styling, Bootstrap 5 framework, and vanilla JavaScript interactivity.
 
 ## What's in here
 
@@ -22,20 +28,37 @@ The color scheme is scarlet (#B01030) and gold (#D4AF37) which gives it a bit of
 
 Since I have used Bootstrap 5, the whole site is mobile-first, meaning it works on phones, tablets, and desktops without looking broken on any of them.
 
-## Setup
+## Screenshots
 
-Clone it and open `index.html` in a browser. Or run a local server if you want to test it properly:
+[Add screenshots of home page, about page, projects page, and mobile view here]
 
+## Build Instructions
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+-  Node.js installed (for local server)
+
+### Option 1: Simple Browser View
+Just clone the repo and open `index.html` directly in your browser. It'll work fine for basic viewing.
+
+### Option 2: Local Server (Recommended)
+
+**Using Node.js:**
 ```bash
-python -m http.server 8000
-```
-
-Then go to `http://localhost:8000`
-
-If you're on Node, you can also do:
-```bash
+git clone https://github.com/rajivphilip18/CS5610_Project1.git
+cd CS5610_Project1
 npx http-server
 ```
+
+Then open the URL shown in the terminal (usually `http://127.0.0.1:8080`).
+
+### Option 3: Deploy to GitHub Pages
+The site is already deployed at [rajivphilip18.github.io/CS5610_Project1](https://rajivphilip18.github.io/CS5610_Project1). To deploy your own version:
+
+1. Fork the repository
+2. Enable GitHub Pages in your repo settings
+3. Set the source to the `main` branch
+4. Your site will be live at `https://yourusername.github.io/CS5610_Project1`
 
 ## File structure
 
@@ -104,10 +127,3 @@ Edit `projects.html` and add new project cards. They follow a simple structure w
 ### Updating Content
 
 Just edit the HTML files directly. The structure is pretty straightforward, and Bootstrap classes handle most of the layout stuff.
-
-## Contact
-
-- **Email:** philip.ra@northeastern.edu
-- **Phone:** +1 (617) 594-2308
-
-You can update these in `contact.html` if needed.

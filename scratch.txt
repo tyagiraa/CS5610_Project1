@@ -1,0 +1,3 @@
+Uses the class eslint config file and it doesn't throw any error
+
+The page is W3C Compliant, doesn't throw any error in https://validator.w3.org/
