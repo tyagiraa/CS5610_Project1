@@ -1,4 +1,4 @@
-import Typewriter from "/js/typewriter.js";
+import Typewriter from "./typewriter.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const titleElement = document.querySelector("#hero-title-text");
