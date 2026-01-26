@@ -253,3 +253,77 @@ footer {
         justify-content: flex-start;
     }
 }
+
+ .contact-icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: var(--dark-scarlet);
+    color: var(--golden);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.contact-label {
+    color: var(--dark-scarlet);
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.contact-value {
+    color: #555; /* Dark grey for readability */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-value:hover {
+    color: var(--dark-golden);
+}
+
+/* The Form Card on the right */
+.contact-card {
+    background-color: var(--dark-scarlet); /* Using your brand red instead of black */
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(176, 16, 48, 0.3);
+    color: white;
+}
+
+/* Form Inputs styling */
+.contact-card .form-control {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent */
+    border: 1px solid rgba(212, 175, 55, 0.3); /* Subtle gold border */
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+
+.contact-card .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: var(--golden);
+    box-shadow: none;
+    color: #fff;
+}
+
+.contact-card .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-submit {
+    background: linear-gradient(90deg, var(--golden) 0%, var(--dark-golden) 100%);
+    color: var(--dark-scarlet);
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+.btn-submit:hover {
+    transform: scale(1.05);
+    color: var(--scarlet);
+}

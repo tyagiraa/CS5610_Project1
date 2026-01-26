@@ -16,7 +16,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="icon" type="image/png" href="rp_logo.png" />
@@ -55,7 +54,7 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About Me</a>
+              <a class="nav-link active" href="aboutMe.html">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="projects.html">Projects</a>
@@ -68,38 +67,115 @@
       </div>
     </nav>
     <main class="container my-5">
-      <div class="row align-items-center min-vh-50">
-        <div class="col-lg-5 text-center mb-4 mb-lg-0">
-          <img
-            src="rp_headshot_v2.png"
-            alt="Icon"
-            class="img-fluid"
-            style="max-width: 300px; height: auto"
-          />
+      <div class="row min-vh-50">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <div class="text-center mb-5">
+            <img
+              src="rp_headshot_v2.png "
+              alt="Rajiv Philip"
+              class="img-fluid rounded shadow-lg"
+              style="
+                max-width: 300px;
+                height: auto;
+                border: 3px solid var(--golden);
+              "
+            />
+          </div>
+
+          <div class="px-lg-3 mb-5">
+            <h3
+              class="h4 border-bottom pb-2 mb-4"
+              style="
+                color: var(--dark-golden);
+                border-color: var(--golden) !important;
+              "
+            >
+              <i class="fas fa-graduation-cap me-2"></i>Education
+            </h3>
+
+            <div class="d-flex align-items-center mb-4">
+              <div class="me-3 flex-shrink-0">
+                <img
+                  src="neu_logo.png"
+                  alt="College Logo"
+                  style="width: 150px; height: 50px; object-fit: contain"
+                />
+              </div>
+              <div>
+                <h5 class="mb-0 fw-bold" style="color: var(--dark-scarlet)">
+                  Northeastern University, Boston
+                </h5>
+                <small class="text-muted">MS in Computer Science</small>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <div class="me-3 flex-shrink-0">
+                <img
+                  src="spit_logo.png"
+                  alt="College Logo"
+                  style="width: 150px; height: 50px; object-fit: contain"
+                />
+              </div>
+              <div>
+                <h5 class="mb-0 fw-bold" style="color: var(--dark-scarlet)">
+                  Sardar Patel Institute of Technology, Mumbai
+                </h5>
+                <small class="text-muted">Bachelor's in Engineering</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="px-lg-3 mt-4">
+                <h3 class="h4 border-bottom pb-2 mb-4" style="color: var(--dark-golden); border-color: var(--golden) !important;">
+                    <i class="fas fa-briefcase me-2"></i>Experience
+                </h3>
+
+                <div class="d-flex flex-wrap align-items-center gap-4">
+                    <a href="#" title="Dell Technologies"> <img src="dell_logo.png" alt="Company 1" style="height: 60px; width: 150px; object-fit: contain;">
+                    </a>
+
+                    <a href="#" title="Deloitte Consulting USI">
+                        <img src="deloitte_logo.png" alt="Company 2" style="height: 60px; width: auto; object-fit: contain;">
+                    </a>
+
+                    <a href="#" title="LTIMindtree">
+                        <img src="lti_logo.png" alt="Company 3" style="height: 60px; width: auto; object-fit: contain;">
+                    </a>
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-lg-7">
-          <h1 class="display-4 fw-bold mb-4" style="color: var(--golden)">
+        <div class="col-lg-7 ps-lg-5">
+          <h1
+            class="display-4 fw-bold mb-4"
+            style="
+              color: var(--golden);
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            "
+          >
             About Me
           </h1>
 
           <div
             style="
               color: var(--dark-scarlet);
-              font-size: 1.1rem;
-              line-height: 1.8;
+              font-size: 1.15rem;
+              line-height: 1.9;
             "
           >
-            <p>
-              I'm a software engineer specializing in Java, Spring Boot, and
-              SQL, driven by a passion for crafting robust, reliable system. I
-              thrive in challenging environments and enjoy solving intricate
-              problems. Over my career, I've built and scaled backend services
-              using Java and Spring Boot, designed relational database schemas,
-              optimized SQL queries, and build dynamic front-end solution using
-              Angular while also ensuring high performance and maintainability.
+            <p class="mb-4">
+              Hi, I'm <strong>Rajiv Philip</strong>, a software engineer
+              specializing in Java, Spring Boot, and SQL, driven by a passion
+              for crafting robust, reliable system. I thrive in challenging
+              environments and enjoy solving intricate problems. Over my career,
+              I've built and scaled backend services using Java and Spring Boot,
+              designed relational database schemas, optimized SQL queries, and
+              build dynamic front-end solution using Angular while also ensuring
+              high performance and maintainability.
             </p>
-            <p>
+            <p class="mb-4">
               I've collaborated across cross-functional teams to deliver high
               value software solutions that integrate business logic and
               superior coding capabilities. My passion lies in the intersection
@@ -115,8 +191,10 @@
             </p>
           </div>
 
-          <div class="mt-4">
-            <a href="contact.html" class="btn btn-golden"> Get In Touch </a>
+          <div class="mt-5">
+            <a href="contact.html" class="btn btn-golden btn-lg px-4">
+              Let's Connect
+            </a>
           </div>
         </div>
       </div>
