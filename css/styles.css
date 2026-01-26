@@ -349,3 +349,21 @@ font-weight: bold;
 .project-card .card-text {
 color: var(--dark-scarlet);
 }
+
+#hero-title-text {
+    border-right: 0.1em solid var(--golden); /* The cursor */
+    padding-right: 5px;
+    animation: blink-caret 0.75s step-end infinite;
+    font-family: 'Courier New', monospace; /* Monospace font looks more "codelike" */
+}
+
+/* Stop blinking when typing is done (optional) */
+#hero-title-text.typing-complete {
+    animation: none;
+    border-right: none; 
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--golden) }
+}
