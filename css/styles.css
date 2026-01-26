@@ -1,0 +1,255 @@
+/* Color Scheme Variables */
+:root {
+    --scarlet: #ffffff;
+    --dark-scarlet: #B01030;
+    --golden: #D4AF37;
+    --dark-golden: #DAA520;
+    --light-scarlet: #FF6B6B;
+    --bright-silver: #C0C0C0;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--scarlet);
+    color: var(--golden);
+}
+
+main {
+    flex: 1;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: var(--dark-scarlet) !important;
+    border-bottom: 3px solid var(--golden);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: var(--golden) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: var(--dark-golden) !important;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 1rem;
+    color: var(--golden) !important;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--dark-golden) !important;
+    transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--dark-golden) !important;
+    border-bottom: 2px solid var(--golden);
+}
+
+/* Custom Button Styles */
+.btn-golden {
+    background-color: var(--golden);
+    color: var(--dark-scarlet);
+    border: 2px solid var(--golden);
+    font-weight: bold;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-golden:hover {
+    background-color: var(--dark-golden);
+    color: var(--scarlet);
+    border-color: var(--dark-golden);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-golden.active {
+    background-color: var(--dark-golden);
+    border-color: var(--dark-golden);
+}
+
+/* Gradient badge: shade of B01030 left-to-right */
+.bg-gradient-custom {
+    background: linear-gradient(90deg, var(--dark-scarlet) 0%, var(--bright-silver) 100%) !important;
+    color: var(--scarlet) !important;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    display: inline-block;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    border: 1px solid var(--bright-silver);
+}
+
+/* Main Content Styles */
+main h1 {
+    color: var(--golden);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+main .lead {
+    color: var(--golden);
+}
+
+/* Footer Styles */
+footer {
+    margin-top: auto;
+    background-color: var(--dark-scarlet);
+    color: var(--golden);
+    border-top: 3px solid var(--golden);
+}
+
+/* Navbar Toggler Icon (for mobile) */
+.navbar-toggler {
+    border-color: var(--golden);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23FFD700' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .btn-golden {
+        margin-top: 0.5rem;
+    }
+}
+
+/* Centered brand styling (Old English) */
+/* Position the brand title exactly centered within the navbar */
+.navbar .container-fluid {
+    position: relative;
+}
+
+.brand-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    pointer-events: auto;
+}
+
+.brand-center .brand-title {
+    font-family: "Old English Text MT", serif !important;
+    color: var(--golden);
+    font-size: 1.25rem;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.btn-outline-silver {
+    color: var(--dark-golden);
+    border: 2px solid var(--dark-golden);
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-silver:hover {
+    background: var(--dark-golden);
+    color: var(--dark-scarlet);
+}
+
+@media (min-width: 992px) {
+    .brand-center .brand-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Ensure nav links align right and use golden color */
+.navbar-nav .nav-link {
+    color: var(--golden) !important;
+    margin: 0 0.5rem;
+}
+
+@media (max-width: 576px) {
+    .brand-center .brand-title {
+        font-size: 1rem;
+        margin-left: 0.25rem;
+    }
+    .brand-center {
+        position: static;
+        transform: none;
+        margin: 0.25rem auto;
+    }
+}
+
+/* Social icons row */
+.social-row {
+    display: flex;
+    align-items: center;
+}
+
+.social-link {
+    color: var(--golden);
+    font-size: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: color 0.2s ease, transform 0.15s ease;
+}
+
+.social-link:hover {
+    color: var(--dark-golden);
+    transform: translateY(-3px);
+}
+
+.social-link .fa-fw {
+    width: 1em;
+}
+
+@media (max-width: 576px) {
+    .social-link {
+        font-size: 1rem;
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Position social icons absolutely within the actions block so they don't affect layout height */
+.actions {
+    position: relative;
+}
+
+.actions .social-row {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translateY(8px);
+}
+
+@media (max-width: 576px) {
+    .actions .social-row {
+        position: static;
+        transform: none;
+        margin-top: 0.5rem;
+        justify-content: flex-start;
+    }
+}
