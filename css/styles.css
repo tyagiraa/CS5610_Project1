@@ -34,7 +34,7 @@ main {
 
 /* Navigation Styles */
 .navbar {
-  background-color: var(--dark-scarlet) ;
+  background-color: var(--dark-scarlet);
   border-bottom: 3px solid var(--golden);
 }
 
@@ -46,18 +46,18 @@ main {
 }
 
 .navbar-brand:hover {
-  color: var(--dark-golden) ;
+  color: var(--dark-golden);
 }
 
 .navbar-nav .nav-link {
   margin: 0 1rem;
-  color: var(--golden) ;
+  color: var(--golden);
   transition: all 0.3s ease;
   font-weight: 500;
 }
 
 .navbar-nav .nav-link:hover {
-  color: var(--dark-golden) ;
+  color: var(--dark-golden);
   transform: translateY(-2px);
 }
 
@@ -95,7 +95,7 @@ main {
     90deg,
     var(--dark-scarlet) 0%,
     var(--bright-silver) 100%
-  ) ;
+  );
   color: var(--scarlet);
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
