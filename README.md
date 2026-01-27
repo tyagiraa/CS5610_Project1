@@ -22,6 +22,10 @@ Built with Bootstrap 5 for the layout, Font Awesome for icons, and custom CSS to
 
 There's also some JavaScript to add interactivity—a typewriter effect on the home page that creates a nice intro animation, and some other functionality to enhance the user experience.
 
+## Design Document
+You can access the design document directly from the GitHub repository or you can navigate to the link here- https://drive.google.com/file/d/1shgAjJHZAC7tzqJ3WdPPSlsSUL-e5BLX/view?usp=sharing
+
+
 ## Design
 
 The color scheme is scarlet (#B01030) and gold (#D4AF37) which gives it a bit of personality compared to the typical blue/gray portfolios. There's also some bright silver accents. The fonts are clean and readable—using Inter for body text and UnifrakturCook for some accent text. All the colors are managed with CSS variables, so if you want to change the theme, it's pretty easy to tweak them all in one place.
