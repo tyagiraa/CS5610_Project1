@@ -131,3 +131,29 @@ Edit `projects.html` and add new project cards. They follow a simple structure w
 ### Updating Content
 
 Just edit the HTML files directly. The structure is pretty straightforward, and Bootstrap classes handle most of the layout stuff.
+
+## Use of Generative AI
+
+This project utilized generative AI tools minimally to enhance development efficiency:
+
+### AI Tools Used
+
+**Google Gemini Pro Model**
+- **Purpose**: Generated the HTML structure and styling for the Projects page (`projects.html`)
+- **Prompt**: "Create a responsive projects showcase page with Bootstrap 5 that displays software engineering projects in card format with project images, descriptions, technologies used, and live demo/GitHub links"
+- **Implementation**: The entire Projects page layout, including card components, grid system, and initial styling, was built using Google Gemini Pro's suggestions. Manual refinements were made to align with the portfolio's color scheme (scarlet and gold) and overall design system.
+
+### Manual Development
+
+All other components were developed manually:
+- HTML5 semantic markup for home, about, and contact pages
+- Custom CSS styling and animations
+- JavaScript functionality (typewriter effect implementation)
+- Responsive design adjustments
+- W3C compliance fixes and optimizations
+- Content writing and personalization
+
+### Rationale
+
+AI was used strategically only for the Projects page scaffold to accelerate layout design while maintaining full creative control over branding, styling, and functionality throughout the rest of the site.
+
