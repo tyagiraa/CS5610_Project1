@@ -1,7 +1,7 @@
 # CS5610 Project 1
 
 **Author:** Rajiv Philip  
-**Class:** [CS5610 - Web Development](https://www.northeastern.edu/)  
+**Class:** [CS5610 - Web Development](https://johnguerra.co/classes/webDevelopment_online_spring_2026/)  
 **Live Demo:** [rajivphilip18.github.io/CS5610_Project1](https://rajivphilip18.github.io/CS5610_Project1)
 
 ## Project Objective
